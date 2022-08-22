@@ -1,0 +1,42 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
+  "completions": [
+    {
+      "id": "1",
+      "parentName": "Deborah Dunnnit",
+      "childName": "Alexa",
+      "attending": 42,
+      "address": "718 River of Regret Lane",
+      "reservationDate": "2022-11-12",
+      "reservationLength": "3.5",
+      "date_created": 1660850875056,
+      "clownId": 1
+    },
+    {
+      "requestId": "5",
+      "clownId": "1",
+      "date_created": 1661196573364,
+      "id": "FhNePng"
+    }
+  ],
+  "requests": [
+    {
+      "parentName": "Howard",
+      "childName": "Satan",
+      "attending": "2",
+      "address": "3455 NEver Come Back Rd",
+      "reservationDate": "2022-12-13",
+      "reservationLength": "3 hours",
+      "id": 5
+    }
+  ]
+}

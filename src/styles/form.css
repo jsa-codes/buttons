@@ -1,0 +1,64 @@
+
+.serviceForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: 'Aboreto';
+    /* background-color: rgba(0, 0, 0, 0.492); */
+    /* width: 50%; */
+    margin-bottom: 3rem;
+    /* padding: 2rem 2rem; */
+    /* box-shadow: 0 0 8px black; */
+    box-shadow: 20px 15px 0 0 rgb(235, 13, 224);
+    background-image: url(https://pyxis.nymag.com/v1/imgs/1e4/5b8/a7f2a344b236059aae43bf7ca007a07426-06-ScaryClowns.1x.rsocial.w1200.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(23deg);
+    animation: .5s shake infinite alternate;
+}
+
+.label {
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 20px black;
+    color: black;
+}
+
+#submitRequest {
+    font-family: 'Aboreto';
+    /* margin-top: 2rem; */
+    padding: .5rem .5rem;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border:red;
+    /* box-shadow: 0px 1px 10px rgb(250, 134, 134); */
+
+}
+
+#submitRequest:hover {
+    background-color: rgb(255, 30, 240);
+}
+
+.options {
+    flex-basis: 24%;
+    margin: 1rem 2rem;
+    border: 1px solid rgb(255, 30, 240);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    /* box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143); */
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+.input {
+    width: 30rem;
+    color: black;
+}
